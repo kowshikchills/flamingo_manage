@@ -37,18 +37,6 @@ if st.session_state["authentication_status"]:
         picture3 = col3.camera_input("Car Right")
         picture4 = col4.camera_input("Car back")
         pictureD = col5.camera_input("Dashboard")
-        if picture1:
-            col1.image(picture1)
-        if picture2:
-            col2.image(picture2)
-        if picture3:
-            col3.image(picture3)
-        if picture4:
-            col4.image(picture4)
-        if pictureD:
-            col5.image(pictureD)
-    
-        
 
 elif st.session_state["authentication_status"] == False:
     st.error('Username/password is incorrect')
