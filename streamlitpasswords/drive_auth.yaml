@@ -1,0 +1,13 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    KA1234:
+      email: jsmith@gmail.com
+      name: KA1234
+      password: $2b$12$fP77yDGUrC8D2axX16aHRuhruIAeohbI78rn5/IsUx5BrGw9kTKbS
+preauthorized:
+  emails:
+  - melsby@gmail.com
